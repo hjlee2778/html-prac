@@ -2,6 +2,14 @@ div, input, textarea { /* 반응형으로 했을 때, width 100%주고 양 옆�
     box-sizing: border-box;
 }
 
+.camera-table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: white;
+    border-color: skyblue;
+    border-radius: 5px;
+}
+
 .profile{
 width: 100px;
 display: block; 
@@ -196,4 +204,13 @@ input[type=text]{
     padding: 10px;
     display: block;    /* 우측 정렬*/
     margin-left: auto; /* 우측 정렬*/
+}
+
+td,th {
+  border: 1px solid black; 
+}
+
+.background-sky{
+    background-color: skyblue;
+    padding: 20px;
 }

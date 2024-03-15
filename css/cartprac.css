@@ -1,0 +1,28 @@
+div, input, textarea { /* 반응형으로 했을 때, width 100%주고 양 옆이 깔끔하게 보이려면 쓸 것  */
+    box-sizing: border-box;
+}
+
+table {
+    margin: auto;
+    width: 70%;
+    border-top: 1px solid skyblue;
+    border-collapse: collapse;
+    background-color: white;
+    border-color: skyblue;
+    border-radius: 5px;
+}
+
+td,th {
+    border-bottom: 1px solid skyblue;
+    padding: 10px; 
+  }
+
+.background-sky{
+      width: 100%;
+      background-color: skyblue;
+      padding: 30px;
+  }
+
+.cell-long{
+    width: 700px;
+}
