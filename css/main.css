@@ -1,0 +1,199 @@
+div, input, textarea { /* 반응형으로 했을 때, width 100%주고 양 옆이 깔끔하게 보이려면 쓸 것  */
+    box-sizing: border-box;
+}
+
+.profile{
+width: 100px;
+display: block; 
+margin-left: auto; 
+margin-right: auto
+}
+
+.mid{
+font-size: 16px; 
+color:blue; 
+text-align: center    
+}
+
+.content {
+    text-align: center
+}
+
+.box{
+width: 200px;
+background-color: aqua;
+margin: 20px;
+padding: 40px;
+border-radius: 7px;
+margin-left: auto; 
+margin-right: auto;
+font-size: 10px;
+text-align: center;
+box-shadow: 5px 5px grey;
+}
+
+.container{
+width: 800px;
+display: block;
+margin-left: auto;
+margin-right: auto;    
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+.leftmenu{
+    width:20%;
+    height: 400px;
+    background: cornflowerblue;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.right{
+    width: 80%;
+    height: 400px;
+    background: coral;
+    display: inline-block;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+
+.leftp{
+width: 80%;
+height:200px;
+float: left;    
+}
+
+.rightp{
+width:20%;
+height:200px;
+float:left;
+}
+
+.blog-profile{
+    width:70px;
+    float: left;
+    display: block;
+}
+
+.blog-name{
+    float: left;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 1px; 
+}
+
+.main-title{
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.main-button{
+    padding: 15px;
+    font-size: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+input[type=email]{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-textarea{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-background{
+    background-color: gray;
+    padding: 30px;
+}
+
+.form-white{
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.left-50{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.right-50{
+    width:50%;
+    float: right;
+    padding: 10px;
+}
+
+.top-100{
+    width:100%;
+    padding: 10px;
+}
+
+.yellow-button{
+    width: 30%;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+    display: block;    /* 우측 정렬*/
+    margin-left: auto; /* 우측 정렬*/
+}
