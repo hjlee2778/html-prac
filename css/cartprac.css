@@ -1,5 +1,18 @@
-div, input, textarea { /* 반응형으로 했을 때, width 100%주고 양 옆이 깔끔하게 보이려면 쓸 것  */
+div,
+input,
+textarea {
+    /* 반응형으로 했을 때, width 100%주고 양 옆이 깔끔하게 보이려면 쓸 것  */
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: '이쁜 폰트';
+    src: url(../font/NanumGothic-Bold.ttf)
+}
+
+body {
+    margin: 0px;
+    font-family: '이쁜 폰트';
 }
 
 table {
@@ -12,17 +25,41 @@ table {
     border-radius: 5px;
 }
 
-td,th {
+td,
+th {
     border-bottom: 1px solid skyblue;
-    padding: 10px; 
-  }
+    padding: 10px;
+}
 
-.background-sky{
-      width: 100%;
-      background-color: skyblue;
-      padding: 30px;
-  }
+.background-sky {
+    width: 100%;
+    background-color: skyblue;
+    padding: 30px;
+}
 
-.cell-long{
+.cell-long {
     width: 700px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.btn:focus {
+    background-color: gray;
+}
+
+.btn:active {
+    background-color: brown;
 }
